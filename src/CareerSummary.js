@@ -1,6 +1,8 @@
 function CareerSummary(props) {
   return (
-    <p>Career</p>
+    <section>
+      <h3>Career Summary</h3>
+    </section>
 
   );
 }
