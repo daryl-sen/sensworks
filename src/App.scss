@@ -57,7 +57,12 @@ section {
 }
 
 article {
-  border-left: 7px solid #ff3939;
-  padding-left: 2em;
   margin-bottom: 3em;
+}
+.left-accented {
+  padding-left: 2em;
+  border-left: 7px solid #ff3939;
+}
+.two-columns {
+  display: flex;
 }
