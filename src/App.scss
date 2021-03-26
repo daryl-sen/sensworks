@@ -13,6 +13,8 @@ body {
 
 #root>main {
   margin-left: 350px;
+  max-width: 800px;
+  
 }
 
 #root>main>header {
@@ -45,7 +47,6 @@ hr {
 }
 
 section {
-  max-width: 800px;
   h3 {
     font-size: 1.8em;
   }
