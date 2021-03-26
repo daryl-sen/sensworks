@@ -2,7 +2,7 @@ import './Skills.scss';
 
 function Skills(props) {
   return (
-    <>
+    <section>
       <h3>Skills</h3>
       <div class="three-columns">
         <div>
@@ -30,7 +30,7 @@ function Skills(props) {
           </article>
         </div>
       </div>
-    </>
+    </section>
 
   );
 }
