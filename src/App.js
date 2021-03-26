@@ -8,7 +8,22 @@ import TechDetails from './components/TechDetails';
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <header>
+        <h1>Daryl Tang Sen</h1>
+        <h2>Full-Stack Web Developer</h2>
+        <div id="external-profiles">
+          <a target="_blank" href="https://github.com/daryl-sen">Github</a>
+          <a target="_blank" href="https://www.linkedin.com/in/daryl-tang-755753207/">LinkedIn</a>
+        </div>
+        <div id="contact-info">
+          <div>
+            Email: tsdaryl@gmail.com
+          </div>
+          <div>
+            Phone: 604-727-4540
+          </div>
+        </div>
+      </header>
       <DoubleColArticle />
       <SingleColArticle />
       <Sidenav />
