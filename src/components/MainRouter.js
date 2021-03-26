@@ -22,17 +22,17 @@ const MainRouter = () => {
             <Link to="/featured">Featured Projects</Link>
             <Link to="/education">Education</Link>
             <Link to="/career">Career Summary</Link>
-            <Link to="/all">Show All Sections</Link>
+            <Link to="/">Show All</Link>
           </div>
         </nav>
 
         <Switch>
-          <Route path="/summary" component={Summary} /> 
-          <Route path="/skills" component={Skills} /> 
-          <Route path="/featured" component={FeaturedProjects} /> 
-          <Route path="/education" component={Education} /> 
-          <Route path="/career" component={CareerSummary} />
-          <Route path="/all" component={ShowAll} />
+          <Route exact path="/summary" component={Summary} /> 
+          <Route exact path="/skills" component={Skills} /> 
+          <Route exact path="/featured" component={FeaturedProjects} /> 
+          <Route exact path="/education" component={Education} /> 
+          <Route exact path="/career" component={CareerSummary} />
+          <Route exact path="/" component={ShowAll} />
         </Switch>
 
       </Router>

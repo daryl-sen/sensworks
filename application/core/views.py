@@ -36,3 +36,7 @@ def logout():
   logout_user()
   flash('Logged out.')
   return redirect(url_for('core.login'))
+
+@core.route('/<path:path>')
+def catch(path):
+  return redirect(url_for('core.index'))
