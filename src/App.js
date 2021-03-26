@@ -7,7 +7,7 @@ import TechDetails from './components/TechDetails';
 
 function App() {
   return (
-    <>
+    <main>
       <header>
         <h1>Daryl Tang Sen</h1>
         <h2>Full-Stack Web Developer</h2>
@@ -24,11 +24,8 @@ function App() {
           </div>
         </div>
       </header>
-      <DoubleColArticle />
-      <SingleColArticle />
       <Sidenav />
-      <TechDetails />
-    </>
+    </main>
   );
 }
 
