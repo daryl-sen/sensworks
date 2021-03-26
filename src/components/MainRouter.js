@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import CareerSummary from '../CareerSummary';
 import Summary from '../Summary';
 import Education from '../Education';
@@ -6,6 +7,9 @@ import FeaturedProjects from '../FeaturedProjects';
 import Skills from '../Skills';
 
 const MainRouter = () => {
+
+  const [ activeLink, setActiveLink ] = useState('summary');
+  
   return (
     <>
       <Router>
@@ -21,11 +25,11 @@ const MainRouter = () => {
         </nav>
 
         <Switch>
-          <Route path="/dashboard" component={Summary} /> 
-          <Route path="/login" component={Skills} /> 
-          <Route path="/logout" component={FeaturedProjects} /> 
-          <Route path="/register" component={Education} /> 
-          <Route path="/register" component={CareerSummary} /> 
+          <Route path="/summary" component={Summary} /> 
+          <Route path="/skills" component={Skills} /> 
+          <Route path="/featured" component={FeaturedProjects} /> 
+          <Route path="/education" component={Education} /> 
+          <Route path="/career" component={CareerSummary} /> 
         </Switch>
 
       </Router>

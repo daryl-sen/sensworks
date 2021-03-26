@@ -20,6 +20,7 @@ function App() {
           <LinkButton link="tel:604-727-4540" linkText="Phone: 604-727-4540" newTab={true}/>
         </div>
       </header>
+      <hr/>
       <Sidenav />
     </main>
   );
