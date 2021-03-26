@@ -2,7 +2,7 @@ function Education(props) {
   return (
     <section>
       <h3>Education</h3>
-      <article>
+      <article className="two-columns left-accented">
         <header>
           <div class="credentials">
             Diploma in Full-Stack Web Development
@@ -14,11 +14,11 @@ function Education(props) {
             Jan. 2020 to Mar. 2020
           </div>
         </header>
-        <div class="description">
+        <p class="description left-accented">
           Create web projects using popular languages, tools, and frameworks (i.e. NodeJS, React, Git, PostgreSQL, etc). Worked with a company to produce a MVP.
-        </div>
+        </p>
       </article>
-      <article>
+      <article className="two-columns left-accented">
         <header>
           <div class="credentials">
             B.A. Psychology
@@ -30,9 +30,9 @@ function Education(props) {
             Sept. 2014 to Dec. 2020
           </div>
         </header>
-        <div class="description">
+        <p class="description left-accented">
           Specialized in Cognitive Psychology (Attention and perception), research assistant at SFU Vision Lab and Helping and Happiness Lab.
-        </div>
+        </p>
       </article>
     </section>
 

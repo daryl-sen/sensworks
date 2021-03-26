@@ -65,4 +65,26 @@ article {
 }
 .two-columns {
   display: flex;
+  flex-direction: row;
+  header {
+    width: 30%;
+    line-height: 150%;
+    padding-right: 1em;
+    .credentials {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .credential-issuer {
+      font-size: 1em;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #707070;
+      margin-bottom: 1em;
+    }
+  }
+  p.description {
+    width: 60%;
+    margin: 0;
+    font-size: 1em;
+  }
 }
