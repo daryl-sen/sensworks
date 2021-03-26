@@ -9,7 +9,7 @@ import Skills from '../Skills';
 const MainRouter = () => {
 
   const [ activeLink, setActiveLink ] = useState('summary');
-  
+
   return (
     <>
       <Router>
@@ -20,7 +20,7 @@ const MainRouter = () => {
             <Link to="/skills">Skills</Link>
             <Link to="/featured">Featured Projects</Link>
             <Link to="/education">Education</Link>
-            <Link to="/career">CareerSummary</Link>
+            <Link to="/career">Career Summary</Link>
           </div>
         </nav>
 
