@@ -14,10 +14,10 @@ function App() {
         <h1>Daryl Tang Sen</h1>
         <h2>Full-Stack Web Developer</h2>
         <div id="external-profiles">
-          <LinkButton link="https://github.com/daryl-sen" linkText="GitHub" newTab={true}/>
-          <LinkButton link="https://www.linkedin.com/in/daryl-tang-755753207/" linkText="LinkedIn" newTab={true}/>
           <LinkButton link="mailto:tsdaryl@gmail.com" linkText="Email: tsdaryl@gmail.com" newTab={true}/>
           <LinkButton link="tel:604-727-4540" linkText="Phone: 604-727-4540" newTab={true}/>
+          <LinkButton link="https://github.com/daryl-sen" linkText="GitHub" newTab={true}/>
+          <LinkButton link="https://www.linkedin.com/in/daryl-tang-755753207/" linkText="LinkedIn" newTab={true}/>
         </div>
       </header>
       <hr/>

@@ -9,7 +9,7 @@ function Skills(props) {
           <article className="left-accented">
             <h4>Programming Languages</h4>
             <p>
-              Javascript, Python, Ruby, PHP, HTML, CSS
+              Javascript, Python, Ruby, PHP, HTML, CSS, CSS-flexbox, CSS-grid
             </p>
           </article>
         </div>
