@@ -1,0 +1,14 @@
+.link-button {
+  padding: 0.5em 1em;
+  background-color: #358bdc;
+  display: inline-block;
+  color: #fff;
+  margin-right: 1em;
+  border-radius: 1em 1em 1em 1em;
+  -moz-border-radius: 1em 1em 1em 1em;
+  -webkit-border-radius: 1em 1em 1em 1em;
+}
+
+.link-button:link {
+  text-decoration: none;
+}

@@ -1,8 +1,10 @@
 import './App.scss';
 
+import Sidenav from './components/Sidenav';
+import LinkButton from './components/LinkButton';
+
 import DoubleColArticle from './components/DoubleColArticle';
 import SingleColArticle from './components/SingleColArticle';
-import Sidenav from './components/Sidenav';
 import TechDetails from './components/TechDetails';
 
 function App() {
@@ -12,16 +14,10 @@ function App() {
         <h1>Daryl Tang Sen</h1>
         <h2>Full-Stack Web Developer</h2>
         <div id="external-profiles">
-          <a target="_blank" href="https://github.com/daryl-sen">Github</a>
-          <a target="_blank" href="https://www.linkedin.com/in/daryl-tang-755753207/">LinkedIn</a>
-        </div>
-        <div id="contact-info">
-          <div>
-            Email: tsdaryl@gmail.com
-          </div>
-          <div>
-            Phone: 604-727-4540
-          </div>
+          <LinkButton link="https://github.com/daryl-sen" linkText="GitHub" newTab={true}/>
+          <LinkButton link="https://www.linkedin.com/in/daryl-tang-755753207/" linkText="LinkedIn" newTab={true}/>
+          <LinkButton link="mailto:tsdaryl@gmail.com" linkText="Email: tsdaryl@gmail.com" newTab={true}/>
+          <LinkButton link="tel:604-727-4540" linkText="Phone: 604-727-4540" newTab={true}/>
         </div>
       </header>
       <Sidenav />
