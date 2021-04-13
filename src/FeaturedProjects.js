@@ -21,7 +21,7 @@ function FeaturedProjects(props) {
         </div>
       </article>
       <article className="left-accented">
-        <h4><a target="_blank" href="http://www.abbybeautyandbeyond.ca">Abby's Beauty and Beyond Website</a> <span>(Feb, 2021)</span></h4>
+        <h4><a target="_blank" href="https://github.com/daryl-sen/abbys-beauty-and-beyond">Abby's Beauty and Beyond Website</a> <span>(Feb, 2021)</span></h4>
         <p>
           (In progress) Website built for a beauty salon in Abbotsford, includes a content-management system,  appointment management system, and SMS reminders for appointments.
         </p>
